@@ -9,5 +9,7 @@
     <Import_RootNamespace>Shared.RefactorExample.Data</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\CosmosRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\CosmosClientService.cs" />
   </ItemGroup>
 </Project>
