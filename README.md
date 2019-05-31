@@ -1,18 +1,18 @@
 # Core-Refactor-Example
 
-###Initial Setup
+### Initial Setup
 1. Separate code into different layers. Each "layer" is a project that makes this strategy flow better.
 2. Upgrade each project to at least Framework 4.7.2.
 3. Move the class library code, in this example that's the Business and Data projects, into Shared Projects. This is where the code will live until the migration is complete.
 4. Make the Framework projects reference the Shared projects.
 
-###Migrate to Standard
+### Migrate to Standard
 1. Create a new solution that will hold all the Standard projects.
 2. Create a project that targets .NET Standard that corresponds to each Framework project EXCEPT for the Web project which contains all the controllers. There is no Standard WebAPI project, only Core or Framework.
 3. Make the Standard projects reference the Shared projects. This is where you may have to start refactoring.
 4. Ensure that both the Framework solution and the Standard solution still build as you're refactoring code to Standard.
 
-###Migrate to Core
+### Migrate to Core
 1. Create a new solution that will hold all the Core projects.
 2. Create a project that targets .NET Core that corresponds to each Standard project EXCEPT for the Web project. The Web project will be handled later.
 3. Make the Core projects reference the Shared projects. This is where you may now have to refactor the code to support Core but it will be less, if any at all, since the code has already been refactored to Standard.
