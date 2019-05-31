@@ -11,10 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorExample.Data", "Ref
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.RefactorExample.Business", "Shared.RefactorExample.Business\Shared.RefactorExample.Business.shproj", "{13168D8C-0D98-4DDD-B700-3B6358886372}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.RefactorExample.Data", "Shared.RefactorExample.Data\Shared.RefactorExample.Data.shproj", "{63B05E93-8139-4B66-8F9B-3E6413CA3C89}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Shared.RefactorExample.Business\Shared.RefactorExample.Business.projitems*{13168d8c-0d98-4ddd-b700-3b6358886372}*SharedItemsImports = 13
 		Shared.RefactorExample.Business\Shared.RefactorExample.Business.projitems*{23616f20-299f-4c5c-8bbd-21321489b479}*SharedItemsImports = 4
+		Shared.RefactorExample.Data\Shared.RefactorExample.Data.projitems*{2c0a1f07-7642-48c7-907c-6d9c247d4f34}*SharedItemsImports = 4
+		Shared.RefactorExample.Data\Shared.RefactorExample.Data.projitems*{63b05e93-8139-4b66-8f9b-3e6413ca3c89}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
