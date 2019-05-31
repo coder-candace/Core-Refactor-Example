@@ -51,5 +51,6 @@
       <Name>RefactorExample.Data</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="..\..\Shared.RefactorExample\Shared.RefactorExample.Business\Shared.RefactorExample.Business.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
