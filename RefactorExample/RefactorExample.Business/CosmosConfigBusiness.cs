@@ -1,7 +1,7 @@
-﻿using Data.Repositories;
+﻿using RefactorExample.Data.Repositories;
 using System.Threading.Tasks;
 
-namespace Business
+namespace RefactorExample.Business
 {
     public class CosmosConfigBusiness
     {

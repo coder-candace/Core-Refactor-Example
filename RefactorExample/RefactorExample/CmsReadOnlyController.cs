@@ -1,10 +1,10 @@
-﻿using Business;
+﻿using RefactorExample.Business;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace Web
+namespace RefactorExample.Web
 {
     public class CmsReadOnlyController : ApiController
     {

@@ -1,7 +1,7 @@
-﻿using Data.Services;
+﻿using RefactorExample.Data.Services;
 using System.Threading.Tasks;
 
-namespace Data.Repositories
+namespace RefactorExample.Data.Repositories
 {
     public class CosmosRepository
     {
