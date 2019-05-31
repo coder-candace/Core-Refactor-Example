@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.RefactorExample.Business", "Shared.RefactorExample.Business\Shared.RefactorExample.Business.shproj", "{13168D8C-0D98-4DDD-B700-3B6358886372}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared.RefactorExample.Business\Shared.RefactorExample.Business.projitems*{13168d8c-0d98-4ddd-b700-3b6358886372}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA29B78B-D748-4D73-A16F-6747A331258B}
+	EndGlobalSection
+EndGlobal
