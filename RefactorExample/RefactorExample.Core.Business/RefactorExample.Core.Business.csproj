@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>RefactorExample.Business</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\Shared.RefactorExample.Business\Shared.RefactorExample.Business.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\RefactorExample.Core.Data\RefactorExample.Core.Data.csproj" />
+  </ItemGroup>
+
+</Project>

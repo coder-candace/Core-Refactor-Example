@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>RefactorExample.Data</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\Shared.RefactorExample.Data\Shared.RefactorExample.Data.projitems" Label="Shared" />
+
+</Project>
